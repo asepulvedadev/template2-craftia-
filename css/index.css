@@ -3,62 +3,62 @@
 
 :root{
 
-    --primary-text-color: #000;
-    --bg-color: #ffffff;
+    --primary-text-color: #1a1a1a;
+    --bg-color: #f0f8ff;
 
-    --btn-color: #fdfdfd;/* button color*/
-    --btn-bg: #000;/* button bg color*/
+    --btn-color: #ffffff;/* button color*/
+    --btn-bg: #007bff;/* button bg color*/
 
     
-    --header-link-hover: #000000;
-    --header-link-hover-bg: #bababa36;
+    --header-link-hover: #0056b3;
+    --header-link-hover-bg: #e0e0e0;
 
-    --input-hover-bd-color: #232323;
+    --input-hover-bd-color: #007bff;
     
-    --dropdown-bg: #f3f4f6;
-    --dropdown-hover-bg: #dddddd84;
+    --dropdown-bg: #e9ecef;
+    --dropdown-hover-bg: #d1d8e0;
 
-    --faq-h-text: #0e0e0e;
-    --faq-content-text: #1e1e1e;
+    --faq-h-text: #212529;
+    --faq-content-text: #495057;
 
-    --hr-color: #e5e7eb;
+    --hr-color: #ced4da;
 
-    --footer-link: #282828;
-    --footer-link-hover: #000;
+    --footer-link: #343a40;
+    --footer-link-hover: #007bff;
 
-    --header-bg: #edececa5;
+    --header-bg: #f8f9fa;
     /* color: #312f2f; */
-    --hero-gradient: #fcfcfc;
+    --hero-gradient: #f0f8ff;
     --hero-bg-img: url("../assets/images/background/dots-dark.svg");
 
 }
 
 .tw-dark {
-    --primary-text-color: #fff;
-    --bg-color: #000000;
+    --primary-text-color: #e0e0e0;
+    --bg-color: #121212;
 
-    --btn-color: #000000;/* button color*/
-    --btn-bg: #ffffff;/* button bg color*/
+    --btn-color: #ffffff;/* button color*/
+    --btn-bg: #007bff;/* button bg color*/
 
     --header-link-hover: #ffffff;
-    --header-link-hover-bg: #8a8a8a5e;
+    --header-link-hover-bg: #343a40;
 
-    --input-hover-bd-color: #f8f8f8;
+    --input-hover-bd-color: #007bff;
 
-    --dropdown-bg: #171717;
-    --dropdown-hover-bg: #2d2d2ddb;
+    --dropdown-bg: #212529;
+    --dropdown-hover-bg: #343a40;
 
-    --faq-h-text: #efefef;
-    --faq-content-text: #d4d4d4;
+    --faq-h-text: #f8f9fa;
+    --faq-content-text: #ced4da;
 
-    --hr-color: #e1e1e195;
+    --hr-color: #495057;
 
-    --footer-link: #cfcfcf;
+    --footer-link: #adb5bd;
     --footer-link-hover: #ffffff;
 
-    --header-bg: #232323a5;
+    --header-bg: #212529;
 
-    --hero-gradient: #000;
+    --hero-gradient: #121212;
     --hero-bg-img: url("../assets/images/background/dots.svg");
 
   }
@@ -152,7 +152,7 @@ hr{
 
 .purple-bg-grad{
     background: rgb(126,34,206);
-    background: linear-gradient(90deg, #7e22ce91 8%, #625aafae 31%, #7badbbbc 76%, #54d2d0ca 89%);
+    background: linear-gradient(90deg, #2196F3 8%, #4CAF50 31%, #8BC34A 76%, #CDDC39 89%);
     filter: blur(50px);
     opacity: 0.5;
 }

@@ -102,7 +102,7 @@ function updateToggleModeBtn(){
 }
 
 
-const promptWindow =  new Prompt("#pixa-playground")
+const promptWindow =  new Prompt("#craftia-playground")
 const promptForm = document.querySelector("#prompt-form")
 const promptInput = promptForm.querySelector("input[name='prompt']")
 
@@ -111,7 +111,7 @@ const MAX_PROMPTS = 3
 promptForm.addEventListener("submit", (event) => {
     event.preventDefault()
 
-    // window.open("https://github.com/PaulleDemon", "_blank")
+    // window.open("https://www.craftia.com.mx", "_blank")
 
     if (promptWindow.promptList.length >= MAX_PROMPTS)
         return false
@@ -207,10 +207,10 @@ function closeVideo(){
  */
 
 const typed = new Typed('#prompts-sample', {
-    strings: ["How to solve a rubik's cube? Step by step guide", 
-                "What's Pixa playground?", 
-                "How to build an AI SaaS App?", 
-                "How to integrate Pixa API?"],
+    strings: ["¿Cómo resolver un cubo de Rubik? Guía paso a paso", 
+                "¿Qué es Craftia playground?", 
+                "¿Cómo construir una aplicación SaaS de IA?", 
+                "¿Cómo integrar la API de Craftia?"],
     typeSpeed: 80,
     smartBackspace: true, 
     loop: true,
